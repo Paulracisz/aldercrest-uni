@@ -1,5 +1,8 @@
+import heroImage from "src\assets\pexels-keira-burton-6146960.jpg"
+
 export default function Hero() {
   return (
+
     <section id="top" className="hero">
       <div className="hero__row">
         <div className="hero__text">
@@ -26,7 +29,7 @@ export default function Hero() {
         <img
           className="hero__art"
           role="img"
-          src="src\assets\pexels-keira-burton-6146960.jpg"
+          src={heroImage}
           aria-label="Illustration of a ridge line with alder trees above the university's founders hall"
         />
       </div>
