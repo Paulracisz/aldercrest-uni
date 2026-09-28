@@ -1,4 +1,4 @@
-import heroImage from "src\assets\pexels-keira-burton-6146960.jpg"
+import heroImage from "../assets/hero-image.jpg"
 
 export default function Hero() {
   return (
